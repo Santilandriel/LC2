@@ -1,0 +1,2 @@
+# LC2
+Practicas 
