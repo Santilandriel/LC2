@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif; /*TIPOGRAFIA*/
+    /*FONT-STYLE= POSICION DE LAS LETRAS (NORMAL) ES EL NORMAL*/
+    /*TEXT-ALIGN= SI EMPIEXA A LA IZQ A DER*/
+    /*FOND-DECORATION= SUBRALLADO*/
+    /*TEXT-HEIGHT=ESPACIOS ENTRE LINEAS*/
+    /*letter-spacing= ESPACIO ENTRE LETRAS*/
+    /*text-transform=TRANFORMAR EL TEXTO EL MAY O MIN O BUSCAR OTRAS OPCIONES EN EL CUADAER*/
+    /*BACKGROUND= COLOR DE FONDO DE UNA CAJA*/
+}
+
+h1{
+    font-size: 24px; /*TAMAÑO DE LAS LETRA*/
+    color: #242424;
+    font-weight: 900; /*GROSOR DE LAS LETRAS*/
+}
+
+h2 {
+    font-size:20px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p {
+    font-size: 14px;
+}
+
+li { /*li pq dice los elementos*/
+    font-family: monospace;
+    font-size: 18px;
+    padding: 10px;
+}
+
+li a {
+    color: orange;
+    text-decoration: underline;
+}
+
+a {
+    font-weight: bold;
+}
+
+p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul {
+    margin-left: 100px;  /*EL NONE ES PARA SACARLE LOS FOND O TEXT Q TIENE POR DEFECTO*/
+    padding: 20px;
+    border: solid 2px;
+    border-color: blue;
+    width: 40%;
+    list-style: none; /*none para eliminar las viñetas*/
+}
+
+.verde a, .verde { /*CON CLASS, ID ES PARA UNA EN ESPECIFICA*/
+    color: green;
+}
+
+* {
+    color: rgb(200, 200, 200)
+}
+
+li:hover { /*hover para cuando pasemos el mouse por encima*/
+    background-color: rgba(0,0,0,0.1); /*backgroud pq deci fondo*/
+}
+
