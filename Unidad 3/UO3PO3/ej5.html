@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            font-family: sans-serif;
+            gap: 2px;
+            min-height: 100vh;
+
+        }
+        .main .sidebar,
+        .main .contenido{
+            padding: 12px 24px;
+            height: 100vh;
+        }
+        .main .sidebar{
+            display: flex;
+            background-color: aqua;
+            flex: 1;
+            /*align-items: center;*/ /*lo pone en el centro de la caja*/
+            
+
+        }
+        .main .contenido{
+            display: flex;
+            background-color:aquamarine;
+            align-items: flex-start;
+            flex: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">contenido lateral</div>
+        <div class="contenido">Esto sería el contenido principal</div>
+    </div>        
+</body>
+</html>

@@ -7,6 +7,8 @@ body {
     /*letter-spacing= ESPACIO ENTRE LETRAS*/
     /*text-transform=TRANFORMAR EL TEXTO EL MAY O MIN O BUSCAR OTRAS OPCIONES EN EL CUADAER*/
     /*BACKGROUND= COLOR DE FONDO DE UNA CAJA*/
+
+    /*max-min-width-height= el maximo o minimo de cierta caja(ancho y alto)con px o con % */
 }
 
 h1{
@@ -64,5 +66,9 @@ ul {
 
 li:hover { /*hover para cuando pasemos el mouse por encima*/
     background-color: rgba(0,0,0,0.1); /*backgroud pq deci fondo*/
+}
+
+p a:visited{
+    color: blue;
 }
 

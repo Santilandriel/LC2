@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 2px;
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            background-color: rgba(123,198,199,0.8);
+            flex-grow: 1; /*ocupa todo el espacio disponible, es afectada si le damos un por ej max-widht*/
+            flex-shrink: 1; /* tiene menos derecho a espacio cuando se achica */
+            flex-basis: 0;  /* el tamaño q ocupan en esta caso todos el mismo espaciop*/
+            /* o tambien flex: 1 1 0;*/
+        }
+    </style>
+   
+</head>
+<body>
+    <ul>
+        <li>Solo tengo una línea</li>
+        <li>Este texto ocupa algo más que el de al lado<br> Son dos lineas</li>
+        <li>Este es más largo que los otros dos y ocupa más líneas
+        <p>Pero todos estos bloques tienen la misma altura y anchura, crecen o de
+        contraen para repartirse el ancho disponible</p></li>
+</body>
+</html>

@@ -12,11 +12,14 @@ body {
 }
 nav {
     width: 100%;
-    background-color: #007700;
+    background-color: #000877;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
     color: #fff;
@@ -25,10 +28,27 @@ nav {
 }
 .nav-links {
     list-style: none;
+    display: flex;
 }
 .nav-item a {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
     color: #fff;
+}
+
+.nav-item:hover{
+    background-color: black;
+}
+
+.nav-item:hover a{
+    color: green;
+}
+
+.nav-item-login{
+    border: solid 2px white;
+}
+
+.nav-item-login:hover{
+    background-color: white;
 }
